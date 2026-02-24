@@ -177,6 +177,9 @@
                           {{ 'products.product.include_taxes' | t }}
                         {%- endif -%}
                         <div class="gst-and-shipping-text">
+                            {% comment %}
+                              Here is the feature code for PDP page product price GST percentage amount 
+                            {% endcomment %}
                           {% if settings['gst-percentage'] != blank %}
                             {% assign product_price_in_float_digits = product.price | divided_by: 100 %}
                             {% assign percentage = settings['gst-percentage'] %}
