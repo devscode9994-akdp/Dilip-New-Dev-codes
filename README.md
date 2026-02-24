@@ -1,4 +1,4 @@
-# Feature - Fabric and Finish Swatch Images with Zoomable preview image
+# Feature - Variant Swatch Images with Zoomable preview image
 
 ## 📌 Description
 
