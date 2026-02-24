@@ -1,4 +1,4 @@
-# About Feature code
+# About Feature code - Dynamic GST percentage amount in PDP page
 
 ## 📌 Description
 
