@@ -1,0 +1,533 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "current": {
+    "ship_title": "",
+    "heading_font": "serif",
+    "body_font": "montserrat_n4",
+    "color_body_bg": "#fefefe",
+    "color_accent": "#363435",
+    "color_accent2": "#d08a6c",
+    "color_accent3": "#f6f6f0",
+    "color_border": "#eeeeee",
+    "color_overlay": "#0c0d0d",
+    "color_input_border": "#dedede",
+    "color_announcement_bar_text": "#f6f6f0",
+    "outline_button_label": "#363435",
+    "color_price": "#363435",
+    "color_footer_bar_bg": "#d08a6c",
+    "color_footer_text": "#363435",
+    "color_footer_link": "#363435",
+    "color_footer_link_hover": "#d08a6c",
+    "color_footer_bg": "#eaddd0",
+    "section_spacing_desktop": 50,
+    "button_border_radius": 0,
+    "social_facebook_link": "https://facebook.com/magari.india",
+    "social_instagram_link": "https://www.instagram.com/magari.india/",
+    "social_pinterest_link": "https://www.pinterest.com/MagariIndia/",
+    "social_youtube_link": "",
+    "social_share_facebook": true,
+    "social_share_twitter": true,
+    "social_share_pinterest": true,
+    "product_aspect_ratio": "adapt",
+    "products_hover_image": false,
+    "enable_quick_view": true,
+    "show_products_vendor": false,
+    "show_products_swatches": false,
+    "show_products_rating": false,
+    "color_swatches": "Citrine Buff: #675d59\nMedium Teak: #402c1e\nGreen Teak Matte: #798a87\nPISTACHIO: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nLAGUNA GREEN: Optimized_Swatch_LAGUNA_GREEN.jpg\nKindred Fossil: Kindred_Fossil.webp\nLaguna Blue: Optimized_Swatch_LAGUNA_GREEN.jpg\nTeak Wood - Goji Alumn: Optimized_Swatch_GOJI_ALUMN.jpg\nBuckley Parchment: Buckley_Parchment.webp\nGoji Alumn: Optimized_Swatch_GOJI_ALUMN.jpg\nGoji Alumn - Light Walnut finish: Optimized_Swatch_GOJI_ALUMN.jpg\nDUKE BEIGE: Optimized_Swatch_DUKE_BEIGE.jpg\nDuke Beige - Medium Teak finish: Optimized_Swatch_DUKE_BEIGE.jpg\nTeak Wood - Copeland Dusk: Optimized_Swatch_COPELAND_DUSK.jpg\nCopeland Dusk: Optimized_Swatch_COPELAND_DUSK.jpg\nCopeland Dusk - Oak Walnut finish: Optimized_Swatch_COPELAND_DUSK.jpg\nVINTAGE TOBACCO: Optimized_Swatch_VINTAGE_TOBACCO.jpg\nBingle Sprout: Bingle_Sprout.webp\nValerio Clover - Green Teak finish: Optimized_Swatch_VALERIO_CLOVER.jpg\nValerio Clover - Medium Teak finish: Optimized_Swatch_VALERIO_CLOVER.jpg\nTeak Wood - Manisa Marble: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Medium Walnut-Black finish: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Natural Teak finish: Optimized_Swatch_MANISA_MARBLE.jpg\nTeak Wood - Manisa Spice: Optimized_Swatch_MANISA_SPICE.jpg\nManisa Spice: Optimized_Swatch_MANISA_SPICE.jpg\nManisa Spice - Light Walnut finish: Optimized_Swatch_MANISA_SPICE.jpg\nPISTACHIO SHELL: ESTUARY_PISTACHIO_SHELL.jpg\nTeak Wood - Petras Sanctus: Optimized_Swatch_PETRAS_SANCTUS.jpg\nTeak Wood - Antilla Pewter: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter - Medium Teak finish: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter - Light Walnut finish: Optimized_Swatch_ANTILLA_PEWTER.jpg\nTeak Wood - Laguna Brown: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown - Oak Walnut finish: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown - Light Walnut finish: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown: Optimized_Swatch_LAGUNA_BROWN.jpg\nTeak Wood - Antilla Pebble: ANTILLA_PEBBLE_1.webp\nMason Dove: Optimized_Swatch_MASON_DOVE.jpg\nTeak Wood - Munich Ice: Optimized_Swatch_MUNICH_ICE.jpg\nMunich Ice - Medium Teak finish: Optimized_Swatch_MUNICH_ICE.jpg\nManisa Cinnamon: WhatsApp_Image_2025-08-06_at_5.42.05_PM.jpg\nManisa Marble - Light Walnut finish: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Natural Teak finish: Optimized_Swatch_MANISA_MARBLE.jpg\nTeak Wood - Manisa Fossil: Manisa_Fossil_1.webp\nManisa Fossil: Manisa_Fossil_1.webp\nValerio Silver - Piano Black finish: Optimized_Swatch_VALERIO_SILVER.jpg\nValerio Silver - Light Walnut finish: Optimized_Swatch_VALERIO_SILVER.jpg\nKindered Fossil: Kindred_Fossil.webp\nKindred Forest: Kindred_Forest.webp\nAere Herba - Medium Teak finish: Optimized_Swatch_AERE_HERBA.jpg\nPLUSH BRINJAL: Optimized_Swatch_PLUSH_BRINJAL.jpg\nManisa Marble: Optimized_Swatch_MANISA_MARBLE.jpg\nRomney Mulberry: ROMNEY_MULBERRY.jpg\nLapillis Vinum - Light Walnut finish: Optimized_Swatch_LAPILLIS_VINUM.jpg\nPERSIS VELVET: Optimized_Swatch_PERSIS_VELVET.jpg\nPersis Velvet - Oak Walnut finish: Optimized_Swatch_PERSIS_VELVET.jpg\nPowder Blue: Optimized_radio_DUNKIRK_QUEEN.jpg\nCitrine Gravel: Merged_CITRINE_BUFF_AITI_GRAVEL_2.png\nPruge Sable - Medium Teak finish: Optimized_radio_MENTON.jpg\nBASE - AUTUMN BAMBOO / UPPER CUSHION - PRUGE SABLE: Optimized_radio_NEWPORT.jpg\nPruge Sable: Optimized_Swatch_PRUGE_SABLE.jpg\nAiti Gravel: AITI_GRAVEL.jpg\nOatmeal Ozero: OATMEAL_OZERO.png\nDuke Beige - Black Paint finish: Optimized_radio_READING.jpg\nLaguna Fossil: LAGUNA_FOSSIL.png\nDuke Pumice - Black Paint finish: Optimized_radio_READING_1.jpg\nANTILLA PEBBLE: Optimized_Swatch_ANTILLA_PEBBLE.jpg\nAntilla Pebble - Light Walnut finish: Optimized_Swatch_ANTILLA_PEBBLE.jpg\nBowood Calico: Merged_fabric.png\nTANGO BLACK: Optimized_Swatch_TANGO_BLACK.jpg\nVINTAGE PETROLIO: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nFRAME - VALKA BHUTI / SEAT - CAITLIN FAWN: Optimized_radio_COLMAR.jpg\nHerdwick Kalai: Herdwick_Kalai_1.png\nSEAT - PLUSH BRINJAL / FRAME - PERSIS VELVET: Optimized_radio_BLACKBURN.jpg\nSEAT - HICKORY SLATE / FRAME - RAGA ECRU: Optimized_radio_BLACKBURN_1.jpg\nSEAT - MANISA MARBLE / BOLSTER - CAITLIN FAWN: Optimized_radio_SOUTHPORT.jpg\nManisa Marble - Light Walnut finish: Optimized_radio_SOUTHPORT.jpg\nSEAT - HICKORY HONEY / BOLSTER - Aere Lactis: BARLEY_CALICO.jpg\nTeak Wood - Bowood Honey: BOWOOD_HONEY.png\nHickory Honey: Optimized_Swatch_HICKORY_HONEY.jpg\nBarley Calico: BARLEY_CALICO.jpg\nTeak Wood - Synergy Straw: SYNERGY_STRAW.jpg\nCasablanca Ebony: CASABLANCA_EBONY.png\nBantu Kitanda - Natural Teak finish: Optimized_Swatch_BANTU_KITANDA.jpg\nBantu Kitanda - Piano Black finish: Optimized_Swatch_BANTU_KITANDA.jpg\nHerdwick Parchment: HERDWICK_PARCHMENT_FABRIC_1.jpg\nUnda Sanctus - Natural Oak: Optimized_Swatch_UNDA_SANCTUS.jpg\nUnda Sanctus - Natural Oak finish - Papercord: Optimized_Swatch_UNDA_SANCTUS.jpg\nBantu Kitanda - Piano Black: Optimized_Swatch_BANTU_KITANDA.jpg\nLAGUNA GREEN: Optimized_Swatch_LAGUNA_GREEN.jpg\nPistachio: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nLaguna Green - Oak Walnut finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nPistachio - Medium Teak finish: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nArdo Silver: Optimized_radio_ADRIAN.jpg\nTeak Wood - Aere Lactis: Optimized_radio_ATLANTA.jpg\nAere Lactis - Medium Teak finish: Optimized_Swatch_AERE_LACTIS.jpg\nAere Lactis - Light Walnut finish: Optimized_Swatch_AERE_LACTIS.jpg\nMontes Terra: Optimized_radio_AUSTIN.jpg\nMontes Terra - Light Walnut finish: Optimized_radio_AUSTIN.jpg\nSEAT - LIVOREM PASSUM / FRAME - PERSIS VELVET: Optimized_radio_AUSTIN_1.jpg\nPersis Velvet - Light Walnut finish: Optimized_radio_AUSTIN_1.jpg\nSEAT - LAPILLIS VINUM / FRAME - PLUSH BRINJAL: Optimized_radio_AYDIN.jpg\nBowood Pistachio: BOWOOD_PISTACHIO.png\nBACK - MASON DOVE / SEAT - VALERIO SILVER: Optimized_radio_BARI.jpg\nTeak Wood - Mason Silver: Optimized_radio_BARI.jpg\nBuckley Bark: Buckley_Bark.webp\nElton Agave: Elton_Agave.webp\nTeak wood - Elton Agave: Elton_Agave_1.webp\nNeutral Grey - Piano Black finish: Optimized_Swatch_NEUTRAL_GREY.jpg\nNeutral Grey - Light Walnut finish: Optimized_Swatch_NEUTRAL_GREY.jpg\nCAITLIN FAWN: Optimized_Swatch_CAITLIN_FAWN.jpg\nBowood Linen: BOWOOD_LINEN.png\nTumulum Lactis - Medium Teak finish: Optimized_Swatch_TUMULUM_LACTIS.jpg\nSEAT  - HICKORY HONEY / SMALL CUSHIONS - TUMULUM LACTIS: Optimized_radio_BERLIN_2_SEATER.jpg\nTeak Wood - Barley Calico: BARLEY_CALICO_1.jpg\nDUKE PUMICE: Optimized_Swatch_DUKE_PUMICE_1.jpg\nRaga Ecru: RAGA_ECRU.jpg\nRaga Ecru - Medium Teak finish: Optimized_Swatch_RAGA_ECRU.jpg\nVINTAGE PETROLIO: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nVintage Petrolio - Medium Teak finish: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nVintage Petrolio - Light Walnut finish: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nTANGO BLACK: Optimized_Swatch_TANGO_BLACK.jpg\nTango Black - Medium Teak finish: Optimized_Swatch_TANGO_BLACK.jpg\nTango Black - Light Walnut finish: Optimized_Swatch_TANGO_BLACK.jpg\nHoney Calico: Honey_Calico.png\nRattan Honey - Medium Teak finish: Optimized_Swatch_RATTAN_HONEY.jpg\nLaguna Cobblestone: Optimized_Swatch_LAGUNA_COBBLESTONE2.jpg\nCruze Nougat: Optimized_Swatch_CRUZE_NOUGAT.jpg\nTeak Wood - Maywood Gravel: Merged_MAYWOOD_IVORY_AITI_GRAVEL_v2_1_1.png\nLaguna Green - Medium Teak finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nLaguna Green - Oak Walnut finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nVintage Tobacco - Light Walnut finish: Optimized_Swatch_VINTAGE_TOBACCO.jpg\nVintage Tobacco - Medium Teak finish: Optimized_Swatch_VINTAGE_TOBACCO.jpg\nAere Lactis - Light Charcoal finish: Optimized_Swatch_AERE_LACTIS.jpg\nLivorem Passum: Optimized_radio_AUSTIN_1.jpg\nCopeland Dusk - Medium Walnut-Black finish: Optimized_radio_PAROS.jpg\nVelvet Plum: swatch_47ef6b3d-e53e-4d78-8c82-2fff81de8b99.png\nBowood Honey: BOWOOD_HONEY_a4841a2a-16c4-4c9f-80d0-1ac8c2ad9fe8.png\nEstuary Pistachio: ESTUARY_PISTACHIO.jpg\nBrinjal Romney: Merged_Image_Jul_7_2025_05_58_25_PM.png\nVani Millet: Optimized_Swatch_VANI_MILLET.jpg\nElton Moss: Optimized_Massera.jpg\nCruze Elton: swatch.png\nAutumn Heather: Optimized_Swatch_Autum_Heather.jpg\nCeramo: Optimised_Swatch_LAPILLIS_FRONDE.jpg\nLapillis Fronde: Optimised_Swatch_LAPILLIS_FRONDE.jpg\nCruze and Ivory: Optimised_Swatch_Eliosofa.jpg\nVelouri: Optimised_Swatch_Surubed.jpg\nCruze and Rover: Optimised_Swatch_Surubed.jpg\nClique Brick: optimised_swatch_OccoSofa.png\nANTILLA PEBBLE: ANTILLA_PEBBLE_1.webp\nMunich Ice: Optimized_Swatch_MUNICH_ICE.jpg\nWalnut Jade: Krithi-Single-Seater.jpg\nRally Earth: Stilleto.jpg\nEspresson Cinnamon: Krithi-Daybed.jpg\nWine Stripe: Wine_stripe.png\nKindred Fossil: KINDERED_FOSSIL.webp\nKindred Oatmeal: Kindred_Oatmeal.webp\nMaywood Gravel: Maywood_Gravel.png",
+    "fabric_swatches": "Citrine Buff: CITRINE_BUFF.jpg\nMedium Teak: #402c1e\nGreen Teak Matte: #798a87\nPISTACHIO: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nLaguna Green: LAGUNA_GREEN.webp\nKindred Fossil: Kindred_Fossil.webp\nLaguna Blue: LAGUNA_BLUE.webp\nTeak Wood - Goji Alumn: Optimized_Swatch_GOJI_ALUMN.jpg\nBuckley Parchment: Buckley_Parchment.webp\nGoji Alumn: Optimized_Swatch_GOJI_ALUMN.jpg\nGoji Alumn - Light Walnut finish: Optimized_Swatch_GOJI_ALUMN.jpg\nDUKE BEIGE: Optimized_Swatch_DUKE_BEIGE.jpg\nDuke Beige - Medium Teak finish: Optimized_Swatch_DUKE_BEIGE.jpg\nTeak Wood - Copeland Dusk: Optimized_Swatch_COPELAND_DUSK.jpg\nCopeland Dusk: Optimized_Swatch_COPELAND_DUSK.jpg\nCopeland Dusk - Oak Walnut finish: Optimized_Swatch_COPELAND_DUSK.jpg\nVintage Tobacco: VINTAGE_TOBACCO.webp\nBingle Sprout: Bingle_Sprout.webp\nValerio Clover - Green Teak finish: Optimized_Swatch_VALERIO_CLOVER.jpg\nValerio Clover - Medium Teak finish: Optimized_Swatch_VALERIO_CLOVER.jpg\nTeak Wood - Manisa Marble: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Medium Walnut-Black finish: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Natural Teak finish: Optimized_Swatch_MANISA_MARBLE.jpg\nTeak Wood - Manisa Spice: Optimized_Swatch_MANISA_SPICE.jpg\nManisa Spice: Optimized_Swatch_MANISA_SPICE.jpg\nManisa Spice - Light Walnut finish: Optimized_Swatch_MANISA_SPICE.jpg\nPISTACHIO SHELL: ESTUARY_PISTACHIO_SHELL.jpg\nTeak Wood - Petras Sanctus: Optimized_Swatch_PETRAS_SANCTUS.jpg\nTeak Wood - Antilla Pewter: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter - Medium Teak finish: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter - Light Walnut finish: Optimized_Swatch_ANTILLA_PEWTER.jpg\nTeak Wood - Laguna Brown: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown: LAGUNA_BROWN.webp\nLaguna Brown - Oak Walnut finish: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown - Light Walnut finish: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown: Optimized_Swatch_LAGUNA_BROWN.jpg\nTeak Wood - Antilla Pebble: ANTILLA_PEBBLE_1.webp\nMason Dove: Optimized_Swatch_MASON_DOVE.jpg\nTeak Wood - Munich Ice: Optimized_Swatch_MUNICH_ICE.jpg\nMunich Ice - Medium Teak finish: Optimized_Swatch_MUNICH_ICE.jpg\nManisa Cinnamon: WhatsApp_Image_2025-08-06_at_5.42.05_PM.jpg\nManisa Marble - Light Walnut finish: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Natural Teak finish: Optimized_Swatch_MANISA_MARBLE.jpg\nTeak Wood - Manisa Fossil: Manisa_Fossil_1.webp\nManisa Fossil: Manisa_Fossil_1.webp\nValerio Silver - Piano Black finish: Optimized_Swatch_VALERIO_SILVER.jpg\nValerio Silver - Light Walnut finish: Optimized_Swatch_VALERIO_SILVER.jpg\nKindered Fossil: Kindred_Fossil.webp\nKindred Forest: Kindred_Forest.webp\nAere Herba - Medium Teak finish: Optimized_Swatch_AERE_HERBA.jpg\nPLUSH BRINJAL: Optimized_Swatch_PLUSH_BRINJAL.jpg\nManisa Marble: Optimized_Swatch_MANISA_MARBLE.jpg\nRomney Mulberry: ROMNEY_MULBERRY.jpg\nLapillis Vinum - Light Walnut finish: Optimized_Swatch_LAPILLIS_VINUM.jpg\nPERSIS VELVET: Optimized_Swatch_PERSIS_VELVET.jpg\nPersis Velvet - Oak Walnut finish: Optimized_Swatch_PERSIS_VELVET.jpg\nPowder Blue: Optimized_radio_DUNKIRK_QUEEN.jpg\nCitrine Gravel: Merged_CITRINE_BUFF_AITI_GRAVEL_2.png\nPruge Sable - Medium Teak finish: Optimized_radio_MENTON.jpg\nBASE - AUTUMN BAMBOO / UPPER CUSHION - PRUGE SABLE: Optimized_radio_NEWPORT.jpg\nPruge Sable: Optimized_Swatch_PRUGE_SABLE.jpg\nAiti Gravel: AITI_GRAVEL.jpg\nOatmeal Ozero: OATMEAL_OZERO.png\nDuke Beige - Black Paint finish: Optimized_radio_READING.jpg\nLaguna Fossil: LAGUNA_FOSSIL.png\nDuke Pumice - Black Paint finish: Optimized_radio_READING_1.jpg\nANTILLA PEBBLE: Optimized_Swatch_ANTILLA_PEBBLE.jpg\nAntilla Pebble - Light Walnut finish: Optimized_Swatch_ANTILLA_PEBBLE.jpg\nBowood Calico: Merged_fabric.png\nTango Black: TANGO_BLACK.webp\nVintage Petrolio: VINTAGE_PETROLIO.webp\nFRAME - VALKA BHUTI / SEAT - CAITLIN FAWN: Optimized_radio_COLMAR.jpg\nHerdwick Kalai: Herdwick_Kalai_1.png\nSEAT - PLUSH BRINJAL / FRAME - PERSIS VELVET: Optimized_radio_BLACKBURN.jpg\nSEAT - HICKORY SLATE / FRAME - RAGA ECRU: Optimized_radio_BLACKBURN_1.jpg\nSEAT - MANISA MARBLE / BOLSTER - CAITLIN FAWN: Optimized_radio_SOUTHPORT.jpg\nManisa Marble - Light Walnut finish: Optimized_radio_SOUTHPORT.jpg\nSEAT - HICKORY HONEY / BOLSTER - Aere Lactis: BARLEY_CALICO.jpg\nTeak Wood - Bowood Honey: BOWOOD_HONEY.png\nHickory Honey: Optimized_Swatch_HICKORY_HONEY.jpg\nTeak Wood - Synergy Straw: SYNERGY_STRAW.jpg\nCasablanca Ebony: CASABLANCA_EBONY.png\nBantu Kitanda - Natural Teak finish: Optimized_Swatch_BANTU_KITANDA.jpg\nBantu Kitanda - Piano Black finish: Optimized_Swatch_BANTU_KITANDA.jpg\nHerdwick Parchment: HERDWICK_PARCHMENT_FABRIC_1.jpg\nUnda Sanctus - Natural Oak: Optimized_Swatch_UNDA_SANCTUS.jpg\nUnda Sanctus - Natural Oak finish - Papercord: Optimized_Swatch_UNDA_SANCTUS.jpg\nBantu Kitanda - Piano Black: Optimized_Swatch_BANTU_KITANDA.jpg\nLaguna Green: LAGUNA_GREEN.webp\nPistachio: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nLaguna Green - Oak Walnut finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nPistachio - Medium Teak finish: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nArdo Silver: Optimized_radio_ADRIAN.jpg\nTeak Wood - Aere Lactis: Optimized_radio_ATLANTA.jpg\nAere Lactis - Medium Teak finish: Optimized_Swatch_AERE_LACTIS.jpg\nAere Lactis - Light Walnut finish: Optimized_Swatch_AERE_LACTIS.jpg\nMontes Terra: Optimized_radio_AUSTIN.jpg\nMontes Terra - Light Walnut finish: Optimized_radio_AUSTIN.jpg\nSEAT - LIVOREM PASSUM / FRAME - PERSIS VELVET: Optimized_radio_AUSTIN_1.jpg\nPersis Velvet - Light Walnut finish: Optimized_radio_AUSTIN_1.jpg\nSEAT - LAPILLIS VINUM / FRAME - PLUSH BRINJAL: Optimized_radio_AYDIN.jpg\nBowood Pistachio: BOWOOD_PISTACHIO.png\nBACK - MASON DOVE / SEAT - VALERIO SILVER: Optimized_radio_BARI.jpg\nTeak Wood - Mason Silver: Optimized_radio_BARI.jpg\nBuckley Bark: Buckley_Bark.webp\nElton Agave: Elton_Agave.webp\nTeak wood - Elton Agave: Elton_Agave_1.webp\nNeutral Grey - Piano Black finish: Optimized_Swatch_NEUTRAL_GREY.jpg\nNeutral Grey - Light Walnut finish: Optimized_Swatch_NEUTRAL_GREY.jpg\nCAITLIN FAWN: Optimized_Swatch_CAITLIN_FAWN.jpg\nBowood Linen: BOWOOD_LINEN.png\nTumulum Lactis - Medium Teak finish: Optimized_Swatch_TUMULUM_LACTIS.jpg\nSEAT  - HICKORY HONEY / SMALL CUSHIONS - TUMULUM LACTIS: Optimized_radio_BERLIN_2_SEATER.jpg\nTeak Wood - Barley Calico: BARLEY_CALICO_1.jpg\nDUKE PUMICE: Optimized_Swatch_DUKE_PUMICE_1.jpg\nRaga Ecru: RAGA_ECRU.jpg\nRaga Ecru - Medium Teak finish: Optimized_Swatch_RAGA_ECRU.jpg\nVINTAGE PETROLIO: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nVintage Petrolio - Medium Teak finish: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nVintage Petrolio - Light Walnut finish: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nTANGO BLACK: Optimized_Swatch_TANGO_BLACK.jpg\nTango Black - Medium Teak finish: Optimized_Swatch_TANGO_BLACK.jpg\nTango Black - Light Walnut finish: Optimized_Swatch_TANGO_BLACK.jpg\nHoney Calico: Honey_Calico.png\nRattan Honey - Medium Teak finish: Optimized_Swatch_RATTAN_HONEY.jpg\nLaguna Cobblestone: LAGUNA_COBBLESTONE.webp\nCruze Nougat: Optimized_Swatch_CRUZE_NOUGAT.jpg\nTeak Wood - Maywood Gravel: Merged_MAYWOOD_IVORY_AITI_GRAVEL_v2_1_1.png\nLaguna Green - Medium Teak finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nLaguna Green - Oak Walnut finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nVintage Tobacco - Light Walnut finish: Optimized_Swatch_VINTAGE_TOBACCO.jpg\nVintage Tobacco - Medium Teak finish: Optimized_Swatch_VINTAGE_TOBACCO.jpg\nAere Lactis - Light Charcoal finish: Optimized_Swatch_AERE_LACTIS.jpg\nLivorem Passum: Optimized_radio_AUSTIN_1.jpg\nCopeland Dusk - Medium Walnut-Black finish: Optimized_radio_PAROS.jpg\nVelvet Plum: swatch_47ef6b3d-e53e-4d78-8c82-2fff81de8b99.png\nBowood Honey: BOWOOD_HONEY_a4841a2a-16c4-4c9f-80d0-1ac8c2ad9fe8.png\nEstuary Pistachio: ESTUARY_PISTACHIO.jpg\nBrinjal Romney: Merged_Image_Jul_7_2025_05_58_25_PM.png\nVani Millet: Optimized_Swatch_VANI_MILLET.jpg\nElton Moss: Optimized_Massera.jpg\nCruze Elton: swatch.png\nAutumn Heather: Optimized_Swatch_Autum_Heather.jpg\nCeramo: Optimised_Swatch_LAPILLIS_FRONDE.jpg\nLapillis Fronde: Optimised_Swatch_LAPILLIS_FRONDE.jpg\nCruze and Ivory: Optimised_Swatch_Eliosofa.jpg\nVelouri: Optimised_Swatch_Surubed.jpg\nCruze and Rover: Optimised_Swatch_Surubed.jpg\nClique Brick: optimised_swatch_OccoSofa.png\nANTILLA PEBBLE: ANTILLA_PEBBLE_1.webp\nMunich Ice: Optimized_Swatch_MUNICH_ICE.jpg\nWalnut Jade: Krithi-Single-Seater.jpg\nRally Earth: Stilleto.jpg\nEspresson Cinnamon: Krithi-Daybed.jpg\nWine Stripe: Wine_stripe.png\nKindred Fossil: KINDERED_FOSSIL.webp\nKindred Oatmeal: Kindred_Oatmeal.webp\nMaywood Gravel: Maywood_Gravel_1.png\nBarley Calico: BARLEY_CALICO_2.jpg\nBarley Indigo: Barley_Indigo.jpg\nZen Pistachio Shell: ESTUARY_PISTACHIO_SHELL_007b51ed-dd7f-4150-8ccc-eff3720d2ed9.jpg\nLa Paz: LA_PAZ.png\nZen Sedona: ESTURAY_SEDONA_SAGE.jpg\nZen Redwood: ESTURAY_REDWOOD.jpg\nBarley Nutmeg: Barley_Nutmeg.jpg\nBarley Forest: not-given.jpg\nBarley Marigold: BARLEY_MARIGOLD.jpg\nHoney Linen: Honey_Linen.png\nSynergy Straw: SYNERGY_STRAW_fed9a616-c354-4026-89a8-7ffb2d0c2c4f.jpg\nHickory Slate: HICKORY_SLATE.jpg\nBowood Smoke: BOWOOD_SMOKE.jpg\nGlory Root: Glory_Root.webp\nElton Forest: Elton_Forest.png\nManisa Acacia: MANISA_ACACIA.webp\nCharcoal: CHARCOAL.jpg\nRattan: RATTAN.jpg\nForest: FOREST.jpg\nTobago: TOBAGO_46.png\nVintage Toratorra: VINTAGE_TORATORA.webp\nManisa Caramel: MANISA_CARAMEL.webp\nManisa Peacock: MANISA_PEACOCK.webp\nKindred Terracotta: KINDRED_TERRACOTTA.webp\nCopeland Hazel: COPELAND_HAZEL.webp\nCopeland Bark: COPELAND_BARK.webp\nCopeland Eucalyptus: COPELAND_EUCALYPTUS.webp\nManisa Atoll: MANISA_ATOLL.webp\nTuscan Red Linen: TUSCAN_RED_LINEN.png\nValerio Coral: VALERIO_CORAL.jpg\nManisa Sea Glass: MANISA_SEA_GLASS.webp\nManisa Licorice: MANISA_LICORICE.webp\nCasablanca Putty: CASABLANCA_PUTTY.jpg\nHerdwick Khaki: HERDWICK_KHAKI.jpg\nOzero Kalei: OZERO_KALEI.jpg\nOzero Alurr: OZERO_ALURR.jpg\nBingle Java: BINGLE_JAVA.webp\nBingle Terracotta: BINGLE_TERRACOTTA.webp\nRomney Taupe: ROMNEY_TAUPE.jpg\nTerra Jarrah: Terra_Jarrah.png\nHerdwick Ozero: HERDWICK_OZERO.png\nHerdwick Brick: HERDWICK_BRICK.jpg\nCitrine Honey: CITRINE_HONEY.jpg\nCitrine Latte: CITRINE_LATTE.jpg\nOatmeal Kalei: OATMEAL_KALEI.png\nHickory Valerio: HICKORY_VALERIO.jpg\nGurbaksh Mahogany: gurbaksh_mahogany.jpg\nManisa Carrick: MANISA_CARRICK.png\nBuckley Olive: BUCKLEY_OLIVE.webp\nRaga Ocean: RAGA_OCEAN.jpg\nRaga Terracotta: RAGA_TERRACOTTA.jpg\nElton Date: ELTON_DATE.webp\nElton Midnight: ELTON_MIDNIGHT.webp\nPlum Velvet: PLUM_VELVET.png\nRattan Calico: RATTAN_CALICO.png\nHerdwick Mole: HERDWICK_MOLE.jpg\nGravity Onyx: GRAVITY_ONYX.webp\nGravity Chocolate: Gravity_Chocolate.webp\nPindrive Ivory: PINDRIVE_IVORY.png\nSurf Charcoal: SURF_CHARCOAL.png\nQuartz Charcoal: QUARTZ_CHARCOAL.png",
+    "finish_swatches": "Citrine Buff: CITRINE_BUFF.jpg\nGreen Teak Matte: #798a87\nPISTACHIO: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nLaguna Green: LAGUNA_GREEN.webp\nKindred Fossil: Kindred_Fossil.webp\nLaguna Blue: LAGUNA_BLUE.webp\nTeak Wood - Goji Alumn: Optimized_Swatch_GOJI_ALUMN.jpg\nBuckley Parchment: Buckley_Parchment.webp\nGoji Alumn: Optimized_Swatch_GOJI_ALUMN.jpg\nGoji Alumn - Light Walnut finish: Optimized_Swatch_GOJI_ALUMN.jpg\nDUKE BEIGE: Optimized_Swatch_DUKE_BEIGE.jpg\nDuke Beige - Medium Teak finish: Optimized_Swatch_DUKE_BEIGE.jpg\nTeak Wood - Copeland Dusk: Optimized_Swatch_COPELAND_DUSK.jpg\nCopeland Dusk: Optimized_Swatch_COPELAND_DUSK.jpg\nCopeland Dusk - Oak Walnut finish: Optimized_Swatch_COPELAND_DUSK.jpg\nVintage Tobacco: VINTAGE_TOBACCO.webp\nBingle Sprout: Bingle_Sprout.webp\nValerio Clover - Green Teak finish: Optimized_Swatch_VALERIO_CLOVER.jpg\nValerio Clover - Medium Teak finish: Optimized_Swatch_VALERIO_CLOVER.jpg\nTeak Wood - Manisa Marble: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Medium Walnut-Black finish: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Natural Teak finish: Optimized_Swatch_MANISA_MARBLE.jpg\nTeak Wood - Manisa Spice: Optimized_Swatch_MANISA_SPICE.jpg\nManisa Spice: Optimized_Swatch_MANISA_SPICE.jpg\nManisa Spice - Light Walnut finish: Optimized_Swatch_MANISA_SPICE.jpg\nPISTACHIO SHELL: ESTUARY_PISTACHIO_SHELL.jpg\nTeak Wood - Petras Sanctus: Optimized_Swatch_PETRAS_SANCTUS.jpg\nTeak Wood - Antilla Pewter: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter - Medium Teak finish: Optimized_Swatch_ANTILLA_PEWTER.jpg\nAntilla Pewter - Light Walnut finish: Optimized_Swatch_ANTILLA_PEWTER.jpg\nTeak Wood - Laguna Brown: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown: LAGUNA_BROWN.webp\nLaguna Brown - Oak Walnut finish: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown - Light Walnut finish: Optimized_Swatch_LAGUNA_BROWN.jpg\nLaguna Brown: Optimized_Swatch_LAGUNA_BROWN.jpg\nTeak Wood - Antilla Pebble: ANTILLA_PEBBLE_1.webp\nMason Dove: Optimized_Swatch_MASON_DOVE.jpg\nTeak Wood - Munich Ice: Optimized_Swatch_MUNICH_ICE.jpg\nMunich Ice - Medium Teak finish: Optimized_Swatch_MUNICH_ICE.jpg\nManisa Cinnamon: WhatsApp_Image_2025-08-06_at_5.42.05_PM.jpg\nManisa Marble - Light Walnut finish: Optimized_Swatch_MANISA_MARBLE.jpg\nManisa Marble - Natural Teak finish: Optimized_Swatch_MANISA_MARBLE.jpg\nTeak Wood - Manisa Fossil: Manisa_Fossil_1.webp\nManisa Fossil: Manisa_Fossil_1.webp\nValerio Silver - Piano Black finish: Optimized_Swatch_VALERIO_SILVER.jpg\nValerio Silver - Light Walnut finish: Optimized_Swatch_VALERIO_SILVER.jpg\nKindered Fossil: Kindred_Fossil.webp\nKindred Forest: Kindred_Forest.webp\nAere Herba - Medium Teak finish: Optimized_Swatch_AERE_HERBA.jpg\nPLUSH BRINJAL: Optimized_Swatch_PLUSH_BRINJAL.jpg\nManisa Marble: Optimized_Swatch_MANISA_MARBLE.jpg\nRomney Mulberry: ROMNEY_MULBERRY.jpg\nLapillis Vinum - Light Walnut finish: Optimized_Swatch_LAPILLIS_VINUM.jpg\nPERSIS VELVET: Optimized_Swatch_PERSIS_VELVET.jpg\nPersis Velvet - Oak Walnut finish: Optimized_Swatch_PERSIS_VELVET.jpg\nPowder Blue: Optimized_radio_DUNKIRK_QUEEN.jpg\nCitrine Gravel: Merged_CITRINE_BUFF_AITI_GRAVEL_2.png\nPruge Sable - Medium Teak finish: Optimized_radio_MENTON.jpg\nBASE - AUTUMN BAMBOO / UPPER CUSHION - PRUGE SABLE: Optimized_radio_NEWPORT.jpg\nPruge Sable: Optimized_Swatch_PRUGE_SABLE.jpg\nAiti Gravel: AITI_GRAVEL.jpg\nOatmeal Ozero: OATMEAL_OZERO.png\nDuke Beige - Black Paint finish: Optimized_radio_READING.jpg\nLaguna Fossil: LAGUNA_FOSSIL.png\nDuke Pumice - Black Paint finish: Optimized_radio_READING_1.jpg\nANTILLA PEBBLE: Optimized_Swatch_ANTILLA_PEBBLE.jpg\nAntilla Pebble - Light Walnut finish: Optimized_Swatch_ANTILLA_PEBBLE.jpg\nBowood Calico: Merged_fabric.png\nTANGO BLACK: TANGO_BLACK.webp\nVINTAGE PETROLIO: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nFRAME - VALKA BHUTI / SEAT - CAITLIN FAWN: Optimized_radio_COLMAR.jpg\nHerdwick Kalai: Herdwick_Kalai_1.png\nSEAT - PLUSH BRINJAL / FRAME - PERSIS VELVET: Optimized_radio_BLACKBURN.jpg\nSEAT - HICKORY SLATE / FRAME - RAGA ECRU: Optimized_radio_BLACKBURN_1.jpg\nSEAT - MANISA MARBLE / BOLSTER - CAITLIN FAWN: Optimized_radio_SOUTHPORT.jpg\nManisa Marble - Light Walnut finish: Optimized_radio_SOUTHPORT.jpg\nSEAT - HICKORY HONEY / BOLSTER - Aere Lactis: BARLEY_CALICO.jpg\nTeak Wood - Bowood Honey: BOWOOD_HONEY.png\nHickory Honey: Optimized_Swatch_HICKORY_HONEY.jpg\nTeak Wood - Synergy Straw: SYNERGY_STRAW.jpg\nCasablanca Ebony: CASABLANCA_EBONY.png\nBantu Kitanda - Natural Teak finish: Optimized_Swatch_BANTU_KITANDA.jpg\nBantu Kitanda - Piano Black finish: Optimized_Swatch_BANTU_KITANDA.jpg\nHerdwick Parchment: HERDWICK_PARCHMENT_FABRIC_1.jpg\nUnda Sanctus - Natural Oak: Optimized_Swatch_UNDA_SANCTUS.jpg\nUnda Sanctus - Natural Oak finish - Papercord: Optimized_Swatch_UNDA_SANCTUS.jpg\nBantu Kitanda - Piano Black: Optimized_Swatch_BANTU_KITANDA.jpg\nLaguna Green: LAGUNA_GREEN.webp\nPistachio: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nLaguna Green - Oak Walnut finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nPistachio - Medium Teak finish: Optimized_Swatch_CAITLIN_PISTACHIO.jpg\nArdo Silver: Optimized_radio_ADRIAN.jpg\nTeak Wood - Aere Lactis: Optimized_radio_ATLANTA.jpg\nAere Lactis - Medium Teak finish: Optimized_Swatch_AERE_LACTIS.jpg\nBarley Calico: BARLEY_CALICO_2.jpg\nAere Lactis - Light Walnut finish: Optimized_Swatch_AERE_LACTIS.jpg\nMontes Terra: Optimized_radio_AUSTIN.jpg\nMontes Terra - Light Walnut finish: Optimized_radio_AUSTIN.jpg\nSEAT - LIVOREM PASSUM / FRAME - PERSIS VELVET: Optimized_radio_AUSTIN_1.jpg\nPersis Velvet - Light Walnut finish: Optimized_radio_AUSTIN_1.jpg\nSEAT - LAPILLIS VINUM / FRAME - PLUSH BRINJAL: Optimized_radio_AYDIN.jpg\nBowood Pistachio: BOWOOD_PISTACHIO.png\nBACK - MASON DOVE / SEAT - VALERIO SILVER: Optimized_radio_BARI.jpg\nTeak Wood - Mason Silver: Optimized_radio_BARI.jpg\nBuckley Bark: Buckley_Bark.webp\nElton Agave: Elton_Agave.webp\nTeak wood - Elton Agave: Elton_Agave_1.webp\nNeutral Grey - Piano Black finish: Optimized_Swatch_NEUTRAL_GREY.jpg\nNeutral Grey - Light Walnut finish: Optimized_Swatch_NEUTRAL_GREY.jpg\nCAITLIN FAWN: Optimized_Swatch_CAITLIN_FAWN.jpg\nBowood Linen: BOWOOD_LINEN.png\nTumulum Lactis - Medium Teak finish: Optimized_Swatch_TUMULUM_LACTIS.jpg\nSEAT  - HICKORY HONEY / SMALL CUSHIONS - TUMULUM LACTIS: Optimized_radio_BERLIN_2_SEATER.jpg\nTeak Wood - Barley Calico: BARLEY_CALICO_1.jpg\nDUKE PUMICE: Optimized_Swatch_DUKE_PUMICE_1.jpg\nRaga Ecru: RAGA_ECRU.jpg\nRaga Ecru - Medium Teak finish: Optimized_Swatch_RAGA_ECRU.jpg\nVINTAGE PETROLIO: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nVintage Petrolio - Medium Teak finish: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nVintage Petrolio - Light Walnut finish: Optimized_Swatch_VINTAGE_PETROLIO.jpg\nTango Black: TANGO_BLACK.webp\nTango Black - Medium Teak finish: Optimized_Swatch_TANGO_BLACK.jpg\nTango Black - Light Walnut finish: Optimized_Swatch_TANGO_BLACK.jpg\nHoney Calico: Honey_Calico.png\nRattan Honey - Medium Teak finish: Optimized_Swatch_RATTAN_HONEY.jpg\nLaguna Cobblestone: Optimized_Swatch_LAGUNA_COBBLESTONE2.jpg\nCruze Nougat: Optimized_Swatch_CRUZE_NOUGAT.jpg\nTeak Wood - Maywood Gravel: Merged_MAYWOOD_IVORY_AITI_GRAVEL_v2_1_1.png\nLaguna Green - Medium Teak finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nLaguna Green - Oak Walnut finish: Optimized_Swatch_LAGUNA_GREEN.jpg\nVintage Tobacco - Light Walnut finish: Optimized_Swatch_VINTAGE_TOBACCO.jpg\nVintage Tobacco - Medium Teak finish: Optimized_Swatch_VINTAGE_TOBACCO.jpg\nAere Lactis - Light Charcoal finish: Optimized_Swatch_AERE_LACTIS.jpg\nLivorem Passum: Optimized_radio_AUSTIN_1.jpg\nCopeland Dusk - Medium Walnut-Black finish: Optimized_radio_PAROS.jpg\nVelvet Plum: swatch_47ef6b3d-e53e-4d78-8c82-2fff81de8b99.png\nBowood Honey: BOWOOD_HONEY_a4841a2a-16c4-4c9f-80d0-1ac8c2ad9fe8.png\nEstuary Pistachio: ESTUARY_PISTACHIO.jpg\nBrinjal Romney: Merged_Image_Jul_7_2025_05_58_25_PM.png\nVani Millet: Optimized_Swatch_VANI_MILLET.jpg\nElton Moss: Optimized_Massera.jpg\nCruze Elton: swatch.png\nAutumn Heather: Optimized_Swatch_Autum_Heather.jpg\nCeramo: Optimised_Swatch_LAPILLIS_FRONDE.jpg\nLapillis Fronde: Optimised_Swatch_LAPILLIS_FRONDE.jpg\nCruze and Ivory: Optimised_Swatch_Eliosofa.jpg\nVelouri: Optimised_Swatch_Surubed.jpg\nCruze and Rover: Optimised_Swatch_Surubed.jpg\nClique Brick: optimised_swatch_OccoSofa.png\nANTILLA PEBBLE: ANTILLA_PEBBLE_1.webp\nMunich Ice: Optimized_Swatch_MUNICH_ICE.jpg\nWalnut Jade: Krithi-Single-Seater.jpg\nRally Earth: Stilleto.jpg\nEspresson Cinnamon: Krithi-Daybed.jpg\nWine Stripe: Wine_stripe.png\nKindred Fossil: KINDERED_FOSSIL.webp\nKindred Oatmeal: Kindred_Oatmeal.webp\nMaywood Gravel: Maywood_Gravel_1.png\nPiano Black: piano_black.png\nOak Walnut: Oak_walnut.png\nMedium Teak: medium_teak.png\nDark Green Teak: Dark_green_teak.png\nDark Teak: Dark_teak.png\nLight Walnut: Light_Walnut.png\nNatural Teak: Natural_teak.png\nBlack Pc: not-given.jpg\nGun Metal Brushed: not-given.jpg\nMatte Black Metal: Matte_Black.jpg\nNatural Oak: Natural_Oak.png\nGreen Teak: greenteak.png\nSmoke Grey: smoke_grey.png",
+    "favicon": "shopify://shop_images/Magari_Favion32_px.png",
+    "checkout_accent_color": "#d08a6c",
+    "checkout_button_color": "#d08a6c",
+    "checkout_error_color": "#b32626",
+    "sections": {
+      "header": {
+        "type": "header",
+        "custom_css": [],
+        "settings": {
+          "logo": "shopify://shop_images/Magari_Logo.png",
+          "logo_height_range": 25,
+          "logo_height_range_mobile": 30,
+          "style": "style1",
+          "header_shadow": "header--shadow-none",
+          "menu": "header-menu",
+          "mobile_secondary_menu": "",
+          "show_language_switcher": false,
+          "show_currency_switcher": false,
+          "predictive_search_enabled": true,
+          "search_menu": "main-menu"
+        }
+      },
+      "footer-top-bar": {
+        "type": "footer-top-bar",
+        "settings": {
+          "footer_top_bar": false,
+          "text": "Add a call to action text here.",
+          "button_text": "Explore",
+          "button_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "307a76c2-a010-4b0c-a16f-ae58eae3748a": {
+            "type": "menu",
+            "settings": {
+              "column_size": "small",
+              "title": "",
+              "menu": "main-menu"
+            }
+          },
+          "4695e946-0d20-4358-ae4b-4558a0326f05": {
+            "type": "menu",
+            "settings": {
+              "column_size": "small",
+              "title": "",
+              "menu": "habitat-menu"
+            }
+          },
+          "menu_Nptdxn": {
+            "type": "menu",
+            "settings": {
+              "column_size": "small",
+              "title": "",
+              "menu": "footer"
+            }
+          },
+          "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f": {
+            "type": "signup",
+            "settings": {
+              "column_size": "medium",
+              "title": "JOIN OUR MAILING LIST",
+              "text": ""
+            }
+          },
+          "2196bdf2-f82f-440f-b779-439e8638360a": {
+            "type": "social",
+            "settings": {
+              "column_size": "small",
+              "title": ""
+            }
+          }
+        },
+        "block_order": [
+          "307a76c2-a010-4b0c-a16f-ae58eae3748a",
+          "4695e946-0d20-4358-ae4b-4558a0326f05",
+          "menu_Nptdxn",
+          "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f",
+          "2196bdf2-f82f-440f-b779-439e8638360a"
+        ],
+        "custom_css": [
+          ".footer {padding: unset;}",
+          "@media only screen and (min-width: 768px) {.footer {padding-top: 65px; }}",
+          "@media only screen and (max-width: 768px) {.footer {padding-top: 35px; }}"
+        ],
+        "settings": {
+          "copyright_text": "All rights reserved.",
+          "show_language_switcher": false,
+          "show_currency_switcher": false,
+          "show_payment_icons": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "announcement_bar": true,
+          "announcement_bar_homepage_only": false,
+          "announcement_bar_text": "Click here to subscribe & get 10% off.",
+          "announcement_bar_link": "#",
+          "show_language_switcher": false,
+          "show_currency_switcher": false
+        }
+      }
+    },
+    "content_for_index": [],
+    "blocks": {
+      "2530237624131658027": {
+        "type": "shopify://apps/shipping-delivery-shipzip/blocks/cs-app-block/1a3d1068-6186-4cb9-936d-3cbb65a9de24",
+        "disabled": false,
+        "settings": {
+          "shippingversion": "v2"
+        }
+      },
+      "286197278318599166": {
+        "type": "shopify://apps/bitlogin-social-login/blocks/app-block/9099a221-3716-4376-9c77-be195a34de99",
+        "disabled": true,
+        "settings": {}
+      },
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#202a36",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
+        }
+      },
+      "17595556821664008138": {
+        "type": "shopify://apps/zoorix-bundle-kit/blocks/zoorix-head/51fffd07-f9df-4d6a-b901-6d14b243dcad",
+        "disabled": true,
+        "settings": {}
+      },
+      "10597026053260177897": {
+        "type": "shopify://apps/webrex-up-sell-cross-sell/blocks/app-embed/5f9bd783-09d5-43d2-bb37-85281ca56a6b",
+        "disabled": true,
+        "settings": {}
+      },
+      "4015264832934714879": {
+        "type": "shopify://apps/trustoo-email-popups/blocks/app/a5670cf8-5705-4b01-ad9e-447033feae26",
+        "disabled": false,
+        "settings": {}
+      },
+      "5059203847231188605": {
+        "type": "shopify://apps/smart-product-filter-search/blocks/app-embed/5cc1944c-3014-4a2a-af40-7d65abc0ef73",
+        "disabled": false,
+        "settings": {
+          "productGridSelector": "ProductGridContainer",
+          "useCustomQuickviewTemplate": false,
+          "customJs": "",
+          "customCss": "facet-filters-form.facets-desktop-container.facets {\n    display: none;\n}\n\n#gf-tree .noUi-base, #gf-tree .noUi-connects {\n    height: 3px !important;\n}\n#gf-tree .noUi-connect {\n    display: block !important;\n    background: #000000 !important;\n}\n#gf-tree .noUi-handle {\n    top: -10px !important;\n    border: 8px solid #333 !important;\n    background: #fff !important;\n    cursor: grab !important;\n}\n#gf-tree .noUi-handle.noUi-handle-lower {\n    right: -10px !important;\n}\n#gf-tree .noUi-target {\n  height: auto;\n  border: none;\n  box-shadow: none;\n background: transparent;\n}",
+          "customProductTemplateLoader": "{%- capture productTemplate -%}{% render 'globo.filter.product', themeTranslation: shop.metafields.globoFilter.themeTranslation.value[request.locale.iso_code] %}{%- endcapture -%}{%- unless productTemplate contains 'Liquid error' -%}<script id=\"gspfProduct\" type=\"template/html\">{{- productTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customTreeTemplateLoader": "{%- capture treeTemplate -%}{% render 'globo.filter.tree' %}{%- endcapture -%}{%- unless treeTemplate contains 'Liquid error' -%}<script id=\"gspfFilterTree\" type=\"template/html\">{{- treeTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customSortTemplateLoader": "{%- capture sortTemplate -%}{% render 'globo.filter.sort' %}{%- endcapture -%}{%- unless sortTemplate contains 'Liquid error' -%}<script id=\"gspfFilterSort\" type=\"template/html\">{{- sortTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customSearchTemplateLoader": "{%- capture searchTemplate -%}{% render 'globo.filter.search' %}{%- endcapture -%}{%- unless searchTemplate contains 'Liquid error' -%}<script id=\"gspfSearchResult\" type=\"template/html\">{{- searchTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customPaginationTemplateLoader": "{%- capture paginationTemplate -%}{% render 'globo.filter.pagination' %}{%- endcapture -%}{%- unless paginationTemplate contains 'Liquid error' -%}<script id=\"gspfPagination\" type=\"template/html\">{{- paginationTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
+          "customYMMTemplateLoader": "{%- capture YMMTemplate -%}{% render 'globo.filter.form' %}{%- endcapture -%}{%- unless YMMTemplate contains 'Liquid error' -%}<script id=\"gspfForm\" type=\"template/html\">{{- YMMTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}"
+        }
+      }
+    }
+  },
+  "presets": {
+    "Default": {
+      "heading_font": "itc_new_baskerville_n7",
+      "body_font": "swiss_721_n4",
+      "color_overlay": "#0c0d0d",
+      "color_swatches": "",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_height_range": 34,
+            "logo_height_range_mobile": 30,
+            "style": "style1",
+            "menu": "main-menu",
+            "mobile_secondary_menu": "mobile-secondary",
+            "show_language_switcher": true,
+            "show_currency_switcher": true,
+            "predictive_search_enabled": true,
+            "search_menu": "main-menu"
+          }
+        },
+        "footer-top-bar": {
+          "type": "footer-top-bar",
+          "settings": {
+            "footer_top_bar": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "eea808aa-f273-4675-847d-92a90eb3942d": {
+              "type": "menu",
+              "settings": {
+                "column_size": "small",
+                "title": "MENU",
+                "menu": "main-menu"
+              }
+            },
+            "c796f0b6-9eff-476f-94f2-c3965e9258ee": {
+              "type": "menu",
+              "settings": {
+                "column_size": "small",
+                "title": "MENU",
+                "menu": "main-menu"
+              }
+            },
+            "b4a487aa-4195-4ed2-88bc-723db31735ae": {
+              "type": "social",
+              "settings": {
+                "column_size": "medium",
+                "title": "SOCIAL"
+              }
+            },
+            "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f": {
+              "type": "signup",
+              "settings": {
+                "column_size": "medium",
+                "title": "JOIN OUR MAILING LIST"
+              }
+            }
+          },
+          "block_order": [
+            "eea808aa-f273-4675-847d-92a90eb3942d",
+            "c796f0b6-9eff-476f-94f2-c3965e9258ee",
+            "b4a487aa-4195-4ed2-88bc-723db31735ae",
+            "d0ae22e0-140c-4576-b3f9-ad82e5e6f83f"
+          ],
+          "settings": {
+            "copyright_text": "All rights reserved.",
+            "show_language_switcher": true,
+            "show_currency_switcher": true,
+            "show_payment_icons": true
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "announcement_bar": true,
+            "announcement_bar_homepage_only": false,
+            "announcement_bar_link": "",
+            "show_language_switcher": true,
+            "show_currency_switcher": true
+          }
+        }
+      },
+      "content_for_index": []
+    },
+    "Marble": {
+      "heading_font": "zurich_extended_n9",
+      "body_font": "archivo_n4",
+      "color_accent": "#223a56",
+      "color_accent2": "#ff7575",
+      "color_overlay": "#0c509f",
+      "color_announcement_bar_text": "#223a56",
+      "color_announcement_bar_bg": "#f5f2ea",
+      "color_header_text": "#223a56",
+      "color_header_links": "#223a56",
+      "color_header_links_hover": "#ff7575",
+      "color_header_icons": "#223a56",
+      "outline_button_label": "#223a56",
+      "color_price": "#ff7575",
+      "color_footer_text": "#223a56",
+      "color_footer_link": "#223a56",
+      "color_footer_link_hover": "#ff7575",
+      "color_footer_border": "#223a56",
+      "color_footer_bg": "#f5f2ea",
+      "button_border_radius": 0,
+      "color_swatches": "",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_height_range": 24,
+            "logo_height_range_mobile": 24,
+            "style": "style2",
+            "menu": "main-menu",
+            "mobile_secondary_menu": "",
+            "show_language_switcher": true,
+            "show_currency_switcher": true,
+            "predictive_search_enabled": true,
+            "search_menu": "main-menu"
+          }
+        },
+        "footer-top-bar": {
+          "type": "footer-top-bar",
+          "settings": {
+            "footer_top_bar": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "25eb7cb7-4e48-4d44-904c-c5c58b5e54db": {
+              "type": "text",
+              "settings": {}
+            },
+            "eea808aa-f273-4675-847d-92a90eb3942d": {
+              "type": "menu",
+              "settings": {
+                "column_size": "small",
+                "title": "COMPANY",
+                "menu": "main-menu"
+              }
+            },
+            "c796f0b6-9eff-476f-94f2-c3965e9258ee": {
+              "type": "menu",
+              "settings": {
+                "column_size": "small",
+                "title": "COLLECTIONS",
+                "menu": "main-menu"
+              }
+            },
+            "990b434e-3eed-4fd4-a619-ef16435515d4": {
+              "type": "menu",
+              "settings": {
+                "column_size": "small",
+                "title": "ABOUT",
+                "menu": "main-menu"
+              }
+            },
+            "960971ac-f2aa-439f-b456-23c973e3aee4": {
+              "type": "menu",
+              "settings": {
+                "column_size": "small",
+                "title": "HELP",
+                "menu": "main-menu"
+              }
+            },
+            "b4a487aa-4195-4ed2-88bc-723db31735ae": {
+              "type": "social",
+              "settings": {
+                "column_size": "small",
+                "title": "GET IN TOUCH"
+              }
+            }
+          },
+          "block_order": [
+            "25eb7cb7-4e48-4d44-904c-c5c58b5e54db",
+            "eea808aa-f273-4675-847d-92a90eb3942d",
+            "c796f0b6-9eff-476f-94f2-c3965e9258ee",
+            "990b434e-3eed-4fd4-a619-ef16435515d4",
+            "960971ac-f2aa-439f-b456-23c973e3aee4",
+            "b4a487aa-4195-4ed2-88bc-723db31735ae"
+          ],
+          "settings": {
+            "show_language_switcher": true,
+            "show_currency_switcher": true,
+            "show_payment_icons": true
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {}
+        }
+      },
+      "content_for_index": []
+    },
+    "Sportive": {
+      "heading_font": "roboto_condensed_i7",
+      "heading_font_scale": 110,
+      "body_font": "roboto_condensed_n4",
+      "body_font_scale": 105,
+      "color_accent": "#1a1a1a",
+      "color_accent2": "#e51d1d",
+      "color_overlay": "#0f0f10",
+      "color_input_border": "#dedede",
+      "color_announcement_bar_text": "#ffffff",
+      "color_announcement_bar_bg": "#1a1a1a",
+      "color_header_text": "#1a1a1a",
+      "color_header_links": "#1a1a1a",
+      "color_header_links_hover": "#e51d1d",
+      "color_header_icons": "#1a1a1a",
+      "color_price": "#e51d1d",
+      "color_footer_bar_bg": "#e51d1d",
+      "color_footer_bar_text": "#ffffff",
+      "color_footer_text": "#a3a3a3",
+      "color_footer_link": "#ffffff",
+      "color_footer_link_hover": "#e51d1d",
+      "color_footer_border": "#ffffff",
+      "color_footer_bg": "#1a1a1a",
+      "button_border_radius": 26,
+      "social_facebook_link": "#",
+      "social_twitter_link": "#",
+      "social_instagram_link": "#",
+      "social_pinterest_link": "",
+      "social_tiktok_link": "",
+      "social_youtube_link": "#",
+      "social_vimeo_link": "",
+      "color_swatches": "",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo_height_range": 22,
+            "logo_height_range_mobile": 22,
+            "style": "style3",
+            "menu": "main-menu",
+            "mobile_secondary_menu": "",
+            "show_language_switcher": true,
+            "show_currency_switcher": true,
+            "predictive_search_enabled": true,
+            "search_menu": "main-menu"
+          }
+        },
+        "footer-top-bar": {
+          "type": "footer-top-bar",
+          "settings": {
+            "footer_top_bar": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "d308527d-0cfc-449f-8f8e-b595359aaeeb": {
+              "type": "text",
+              "settings": {
+                "column_size": "large",
+                "title": "",
+                "retina": true,
+                "button_text": "Learn More",
+                "button_link": ""
+              }
+            },
+            "eea808aa-f273-4675-847d-92a90eb3942d": {
+              "type": "menu",
+              "settings": {
+                "column_size": "small",
+                "title": "COMPANY",
+                "menu": "main-menu"
+              }
+            },
+            "c796f0b6-9eff-476f-94f2-c3965e9258ee": {
+              "type": "menu",
+              "settings": {
+                "column_size": "small",
+                "title": "HELP",
+                "menu": "main-menu"
+              }
+            },
+            "b4a487aa-4195-4ed2-88bc-723db31735ae": {
+              "type": "social",
+              "settings": {
+                "column_size": "small",
+                "title": "GET IN TOUCH"
+              }
+            }
+          },
+          "block_order": [
+            "d308527d-0cfc-449f-8f8e-b595359aaeeb",
+            "eea808aa-f273-4675-847d-92a90eb3942d",
+            "c796f0b6-9eff-476f-94f2-c3965e9258ee",
+            "b4a487aa-4195-4ed2-88bc-723db31735ae"
+          ],
+          "settings": {
+            "show_language_switcher": true,
+            "show_currency_switcher": true,
+            "show_payment_icons": true
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "announcement_bar": true,
+            "announcement_bar_homepage_only": false,
+            "announcement_bar_link": "",
+            "show_language_switcher": true,
+            "show_currency_switcher": true
+          }
+        }
+      },
+      "content_for_index": []
+    }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "#shipping_rates > ul > li:nth-child(1) > span:nth-child(1),#shipping_rates > ul > li:nth-child(2) > span:nth-child(1),.ShippingEstimator__Error {font-size: 14px !important; color: #212121 !important; line-height: 12px !important;}",
+      ".ShippingEstimator__Error {color: #f6a37f !important;}"
+    ]
+  }
+}
