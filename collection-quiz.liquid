@@ -1,0 +1,229 @@
+{% style %}
+  .padding--{{ section.id }} {
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+    background-color: {{ section.settings.background_color }};
+  }
+
+  @media screen and (min-width: 750px) {
+    .padding--{{ section.id }} {
+      padding-top: {{ section.settings.desktop_padding_top }}px;
+      padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+    }
+  }
+{% endstyle %}
+
+{{ 'collection-quiz.css' | asset_url | stylesheet_tag }}
+
+{% if page.metafields.custom.quiz_questions and page.metafields.custom.quiz_answers %}
+  {% assign page_name = page.title %}
+
+  <section id="quote-form" class="padding--{{ section.id }}" data-page-details="{{ page_name }}">
+    {%- form 'contact', id: 'quizForm', class: 'quiz-form' -%}
+      <textarea id="quizBody" name="contact[body]" style="display:none"></textarea>
+
+      {% assign questions = page.metafields.custom.quiz_questions.value %}
+      {% assign answers = page.metafields.custom.quiz_answers.value | parse_json %}
+
+      {% for question in questions %}
+        {% assign question_index = forloop.index0 %}
+
+        <div class="quiz-step {% if forloop.first %}active{% endif %}" data-step="{{ question_index }}">
+          <h3>Q{{ forloop.index }}: {{ question }}</h3>
+
+          {% assign options = answers[question_index] %}
+          {% assign has_other = false %}
+
+          {% for answer in options %}
+            {% assign answer_value = answer | downcase | strip %}
+            {% if answer_value == 'other' %}
+              <label>
+                <input
+                  type="radio"
+                  name="q{{ question_index }}"
+                  value="__other__"
+                  class="quiz-radio"
+                  data-step="{{ question_index }}"
+                  required
+                >
+                Other </label
+              ><br>
+              {% assign has_other = true %}
+            {% else %}
+              <label>
+                <input
+                  type="radio"
+                  name="q{{ question_index }}"
+                  value="{{ answer }}"
+                  class="quiz-radio"
+                  data-step="{{ question_index }}"
+                  required
+                >
+                {{ answer }} </label
+              ><br>
+            {% endif %}
+          {% endfor %}
+
+          {% if has_other %}
+            <input
+              type="text"
+              name="other_q{{ question_index }}"
+              class="other-input"
+              data-step="{{ question_index }}"
+              placeholder="Please specify"
+              style="display:none; margin-top:5px;"
+              required
+            >
+          {% endif %}
+
+          <div class="form-buttons-container">
+            {% if question_index > 0 %}
+              <button type="button" class="prev">Back</button>
+            {% endif %}
+            <button type="button" class="next">Next</button>
+          </div>
+        </div>
+      {% endfor %}
+
+      {%- comment -%} Email Step . always required for contact {%- endcomment -%}
+      <div class="quiz-step email">
+        <h3>What's your email ID? *</h3>
+        <span class="email-content">
+          This will help us get back to you with a personalised quote. No spam, we promise!
+        </span>
+        <input type="email" name="contact[email]" required placeholder="Enter your Email">
+        <div class="form-buttons-container">
+          <button type="button" class="prev">Back</button>
+
+          {% if page.metafields.custom.require_phone.value %}
+            <button type="button" class="next">Next</button>
+          {% else %}
+            <button type="submit">Submit</button>
+          {% endif %}
+        </div>
+      </div>
+
+      {%- comment -%} Phone Step . optional, controlled by metafield {%- endcomment -%}
+      {% if page.metafields.custom.require_phone.value %}
+        <div class="quiz-step mobile">
+          <h3>What's your phone number? *</h3>
+          <input type="tel" name="contact[phone]" required placeholder="Enter your Phone">
+          <div class="form-buttons-container">
+            {% comment %}
+              <button type="button" class="prev">Back</button>
+              <button type="submit">Submit</button>
+            {% endcomment %}
+            <button type="button" class="prev">Back</button>
+            <button type="button" class="next">Next</button>
+          </div>
+        </div>
+      {% endif %}
+
+      <div class="quiz-step preview">
+        <h3 class="preview-details-heading">Preview Your Details</h3>
+        <span class="preview-details-information">Please review your information before submitting </span>
+
+        <div id="quizPreview"></div>
+
+        <div class="form-buttons-container">
+          <button type="button" class="prev">Back</button>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    {%- endform -%}
+    {% if section.settings.popup_title != blank %}
+      <div id="successPopup" class="success-popup" style="display:none;">
+        <div class="success-popup-inner">
+          <div class="success-icon">✓</div>
+          {% if section.settings.popup_title != blank %}
+            <h2>{{ section.settings.popup_title }}</h2>
+          {% endif %}
+          {% if section.settings.pop_up_success_note != blank %}
+            <p class="success-note">
+              {{ section.settings.pop_up_success_note }}
+            </p>
+          {% endif %}
+          {% if section.settings.button_text != blank %}
+            <button id="submitAnotherRequest">{{ section.settings.button_text }}</button>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+
+<script src="{{ 'collection-quiz.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "Page Quiz form",
+  "settings": [
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "label": "Desktop Padding top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 24,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "label": "Desktop Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 24,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "label": "Mobile Padding top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "label": "Mobile Padding bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "text",
+      "id": "popup_title",
+      "label": "Popup title"
+    },
+    {
+      "type": "text",
+      "id": "pop_up_success_note",
+      "label": "Popup content"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Page Quiz form"
+    }
+  ]
+}
+{% endschema %}
