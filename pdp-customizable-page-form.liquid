@@ -1,0 +1,392 @@
+{% style %}
+  .padding--{{ section.id }}{
+    padding-top: {{ section.settings.mobile_padding_top }}px;
+    padding-bottom: {{ section.settings.mobile_padding_bottom }}px;
+  }
+
+  @media screen and (min-width: 750px){
+    .padding--{{ section.id }}{
+        padding-top: {{ section.settings.desktop_padding_top }}px;
+        padding-bottom: {{ section.settings.desktop_padding_bottom }}px;
+    }
+  }
+{% endstyle %}
+
+{{ 'pdp-customizable-page-form.css' | asset_url | stylesheet_tag }}
+
+{% if section.settings.section_title != blank %}
+  <section class="row pdp-customizable-form-section padding--{{ section.id }}">
+    {% if section.settings.section_title != blank %}
+      <h2 class="pdp-customizable-form-section-title">
+        {{ section.settings.section_title }}
+      </h2>
+    {% endif %}
+    <div class="pdp-customizable-form-container">
+      {%- form 'contact', id: 'pdpCustomizableForm', class: 'pdp-customizable-form' -%}
+        {% if section.settings.show_full_name %}
+          <div class="form-text-with-input-container">
+            <label for="fullNameText">{{ section.settings.full_name_text }}</label>
+            <input
+              type="text"
+              id="fullNameText"
+              name="contact[name]"
+              class="input-box-element"
+              placeholder="Full Name"
+              required
+            >
+          </div>
+        {% endif %}
+        {% if section.settings.show_phone_number %}
+          <div class="form-text-with-input-container">
+            <label for="phoneNumber">{{ section.settings.phone_number_text }}</label>
+            <input
+              type="tel"
+              id="phoneNumber"
+              name="contact[phone]"
+              class="input-box-element"
+              placeholder="Phone Number"
+              maxlength="10"
+              required
+            >
+          </div>
+        {% endif %}
+        {% if section.settings.show_email_id %}
+          <div class="form-text-with-input-container">
+            <label for="emailId">{{ section.settings.email_text }}</label>
+            <input
+              type="email"
+              id="emailId"
+              name="contact[email]"
+              class="input-box-element"
+              placeholder="Email ID"
+              required
+            >
+          </div>
+        {% endif %}
+        {% if section.settings.show_city_location %}
+          <div class="form-text-with-input-container">
+            <label for="emailId">{{ section.settings.city_location_text }}</label>
+            <input
+              type="text"
+              id="locationText"
+              class="input-box-element"
+              data-question="City / Location"
+              placeholder="City / Location"
+              required
+            >
+          </div>
+        {% endif %}
+        {% if section.settings.show_spaces_options %}
+          <div class="room-spaces-container" data-question="{{ section.settings.what_spaces_options }}">
+            {% if section.settings.what_spaces_options != blank %}
+              <span class="room-spaces-text-content">{{ section.settings.what_spaces_options }}</span>
+            {% endif %}
+            <div class="options-container">
+              {% for block in section.blocks %}
+                {% if block.type == 'space_options' %}
+                  <label>
+                    <input
+                      type="checkbox"
+                      value="{{ block.settings.room_space_type_text }}"
+                    >
+                    {{ block.settings.room_space_type_text }}
+                  </label>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+        <textarea id="contactBody" name="contact[body]" style="display:none;"></textarea>
+        {% if section.settings.show_help_option %}
+          <div class="form-text-with-input-container">
+            <label for="helpText">{{ section.settings.help_content_text }}</label>
+            <input
+              type="text"
+              id="helpText"
+              rows="4"
+              class="input-box-element"
+              data-question="How can we help?"
+              placeholder="Your Answer"
+              required
+            >
+          </div>
+        {% endif %}
+        {% if section.settings.show_what_rooms_options %}
+          <div class="room-types-options-container" data-question="{{ section.settings.what_rooms_text }}">
+            {% if section.settings.what_rooms_text != blank %}
+              <span class="room-type-text-content">{{ section.settings.what_rooms_text }}</span>
+            {% endif %}
+            <div class="options-container">
+              {% for block in section.blocks %}
+                {% if block.type == 'room_type_options' %}
+                  <label>
+                    <input
+                      type="checkbox"
+                      value="{{ block.settings.room_type_text }}"
+                    >
+                    {{ block.settings.room_type_text }}
+                  </label>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+        {% if section.settings.show_others_option %}
+          <div class="form-text-with-input-container">
+            <label for="otherText">{{ section.settings.others_text }}</label>
+            <input
+              type="text"
+              id="otherText"
+              class="input-box-element"
+              data-question="If other, please describe."
+              placeholder="Your Answer"
+            >
+          </div>
+        {% endif %}
+        {% if section.settings.show_color_options %}
+          <div class="color-preferences-container" data-question="{{ section.settings.what_color_preferences }}">
+            {% if section.settings.what_color_preferences != blank %}
+              <span class="color-preference-text-content">{{ section.settings.what_color_preferences }}</span>
+            {% endif %}
+            <div class="options-container">
+              {% for block in section.blocks %}
+                {% if block.type == 'color_preferences_options' %}
+                  <label>
+                    <input
+                      type="checkbox"
+                      value="{{ block.settings.color_type_text }}"
+                    >
+                    {{ block.settings.color_type_text }}
+                  </label>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+        {% if section.settings.form_submitting_button_text != blank %}
+          <button type="submit">{{ section.settings.form_submitting_button_text }}</button>
+        {% endif %}
+      {% endform %}
+      {% if section.settings.form_submitting_text != blank %}
+        <p id="pdpFormSuccessMessage" style="display:none; margin-top:16px; color:green;">
+          {{ section.settings.form_submitting_text }}
+        </p>
+      {% endif %}
+    </div>
+  </section>
+{% endif %}
+
+<script src="{{ 'pdp-customizable-page-form.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "Customizable Form",
+  "settings": [
+    {
+      "type": "range",
+      "id": "desktop_padding_top",
+      "label": "Desktop Padding top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 24,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "desktop_padding_bottom",
+      "label": "Desktop Padding Bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 24,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_top",
+      "label": "Mobile Padding top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "mobile_padding_bottom",
+      "label": "Mobile Padding bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20,
+      "unit": "px"
+    },
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section title"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_full_name",
+      "label": "Show Full name",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "full_name_text",
+      "label": "Full name text",
+      "default": "Full Name?"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_phone_number",
+      "label": "Show Phone Number",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "phone_number_text",
+      "label": "Phone Number text",
+      "default": "Phone Number?"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_email_id",
+      "label": "Show Email ID",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "email_text",
+      "label": "Email text",
+      "default": "Email Address"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_city_location",
+      "label": "Show City / Location",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "city_location_text",
+      "label": "City or Location text",
+      "default": "City / Location"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_help_option",
+      "label": "Show Help Option",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "help_content_text",
+      "label": "Help Content text",
+      "default": "How can we help? Tell us about your project, space and style. How can we help you designyour space?"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_others_option",
+      "label": "Show Others Option",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "others_text",
+      "label": "Others Content text",
+      "default": "If other, please describe."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_what_rooms_options",
+      "label": "Show what rooms options",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "what_rooms_text",
+      "label": "What rooms options text",
+      "default": "What rooms are we working on?"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_color_options",
+      "label": "Show what color preferences options",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "what_color_preferences",
+      "label": "What color preferences text",
+      "default": "What are your color preferences? Choose all that apply."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_spaces_options",
+      "label": "Show room spaces options",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "what_spaces_options",
+      "label": "What spaces options text",
+      "default": "Who uses this space? Choose all that apply."
+    },
+    {
+      "type": "text",
+      "id": "form_submitting_text",
+      "label": "Form submission text",
+      "default": "Thank you for sharing your details with us. Our executive will connect with you shortly."
+    },
+    {
+      "type": "text",
+      "id": "form_submitting_button_text",
+      "label": "Form submit button text",
+      "default": "Book My Free Consultation"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "room_type_options",
+      "name": "Room Type options",
+      "settings": [
+        {
+          "type": "text",
+          "id": "room_type_text",
+          "label": "Room Type text"
+        }
+      ]
+    },
+    {
+      "type": "color_preferences_options",
+      "name": "Color options",
+      "settings": [
+        {
+          "type": "text",
+          "id": "color_type_text",
+          "label": "Color Type text"
+        }
+      ]
+    },
+    {
+      "type": "space_options",
+      "name": "Room Space options",
+      "settings": [
+        {
+          "type": "text",
+          "id": "room_space_type_text",
+          "label": "Room Space Type text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Customizable Form"
+    }
+  ]
+}
+{% endschema %}
